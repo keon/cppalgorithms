@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/algorithms/../data_structures/message.h
+iostream
+-
+
+/home/keon/projects/algorithms/src/algorithms/print_message.cpp
+message.h
+/home/keon/projects/algorithms/src/algorithms/message.h
+cstdlib
+-
+
