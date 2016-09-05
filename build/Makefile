@@ -111,17 +111,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named algorithms
+# Target rules for targets named stack
 
 # Build rule for target.
-algorithms: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 algorithms
-.PHONY : algorithms
+stack: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stack
+.PHONY : stack
 
 # fast build rule for target.
-algorithms/fast:
-	$(MAKE) -f src/algorithms/CMakeFiles/algorithms.dir/build.make src/algorithms/CMakeFiles/algorithms.dir/build
-.PHONY : algorithms/fast
+stack/fast:
+	$(MAKE) -f src/algorithms/CMakeFiles/stack.dir/build.make src/algorithms/CMakeFiles/stack.dir/build
+.PHONY : stack/fast
+
+#=============================================================================
+# Target rules for targets named linked_list
+
+# Build rule for target.
+linked_list: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 linked_list
+.PHONY : linked_list
+
+# fast build rule for target.
+linked_list/fast:
+	$(MAKE) -f src/algorithms/CMakeFiles/linked_list.dir/build.make src/algorithms/CMakeFiles/linked_list.dir/build
+.PHONY : linked_list/fast
+
+#=============================================================================
+# Target rules for targets named queue
+
+# Build rule for target.
+queue: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 queue
+.PHONY : queue
+
+# fast build rule for target.
+queue/fast:
+	$(MAKE) -f src/algorithms/CMakeFiles/queue.dir/build.make src/algorithms/CMakeFiles/queue.dir/build
+.PHONY : queue/fast
 
 # Help Target
 help:
@@ -131,7 +157,9 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... algorithms"
+	@echo "... stack"
+	@echo "... linked_list"
+	@echo "... queue"
 .PHONY : help
 
 

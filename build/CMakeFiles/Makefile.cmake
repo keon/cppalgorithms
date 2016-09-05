@@ -45,5 +45,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "src/algorithms/CMakeFiles/algorithms.dir/DependInfo.cmake"
+  "src/algorithms/CMakeFiles/stack.dir/DependInfo.cmake"
+  "src/algorithms/CMakeFiles/linked_list.dir/DependInfo.cmake"
+  "src/algorithms/CMakeFiles/queue.dir/DependInfo.cmake"
   )

@@ -111,46 +111,130 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/algorithms/CMakeFiles/algorithms.dir/rule:
-	cd /home/keon/projects/algorithms/build && $(MAKE) -f CMakeFiles/Makefile2 src/algorithms/CMakeFiles/algorithms.dir/rule
-.PHONY : src/algorithms/CMakeFiles/algorithms.dir/rule
+src/algorithms/CMakeFiles/stack.dir/rule:
+	cd /home/keon/projects/algorithms/build && $(MAKE) -f CMakeFiles/Makefile2 src/algorithms/CMakeFiles/stack.dir/rule
+.PHONY : src/algorithms/CMakeFiles/stack.dir/rule
 
 # Convenience name for target.
-algorithms: src/algorithms/CMakeFiles/algorithms.dir/rule
+stack: src/algorithms/CMakeFiles/stack.dir/rule
 
-.PHONY : algorithms
+.PHONY : stack
 
 # fast build rule for target.
-algorithms/fast:
-	cd /home/keon/projects/algorithms/build && $(MAKE) -f src/algorithms/CMakeFiles/algorithms.dir/build.make src/algorithms/CMakeFiles/algorithms.dir/build
-.PHONY : algorithms/fast
+stack/fast:
+	cd /home/keon/projects/algorithms/build && $(MAKE) -f src/algorithms/CMakeFiles/stack.dir/build.make src/algorithms/CMakeFiles/stack.dir/build
+.PHONY : stack/fast
 
-print_message.o: print_message.cpp.o
+# Convenience name for target.
+src/algorithms/CMakeFiles/linked_list.dir/rule:
+	cd /home/keon/projects/algorithms/build && $(MAKE) -f CMakeFiles/Makefile2 src/algorithms/CMakeFiles/linked_list.dir/rule
+.PHONY : src/algorithms/CMakeFiles/linked_list.dir/rule
 
-.PHONY : print_message.o
+# Convenience name for target.
+linked_list: src/algorithms/CMakeFiles/linked_list.dir/rule
+
+.PHONY : linked_list
+
+# fast build rule for target.
+linked_list/fast:
+	cd /home/keon/projects/algorithms/build && $(MAKE) -f src/algorithms/CMakeFiles/linked_list.dir/build.make src/algorithms/CMakeFiles/linked_list.dir/build
+.PHONY : linked_list/fast
+
+# Convenience name for target.
+src/algorithms/CMakeFiles/queue.dir/rule:
+	cd /home/keon/projects/algorithms/build && $(MAKE) -f CMakeFiles/Makefile2 src/algorithms/CMakeFiles/queue.dir/rule
+.PHONY : src/algorithms/CMakeFiles/queue.dir/rule
+
+# Convenience name for target.
+queue: src/algorithms/CMakeFiles/queue.dir/rule
+
+.PHONY : queue
+
+# fast build rule for target.
+queue/fast:
+	cd /home/keon/projects/algorithms/build && $(MAKE) -f src/algorithms/CMakeFiles/queue.dir/build.make src/algorithms/CMakeFiles/queue.dir/build
+.PHONY : queue/fast
+
+linked_list_test.o: linked_list_test.cpp.o
+
+.PHONY : linked_list_test.o
 
 # target to build an object file
-print_message.cpp.o:
-	cd /home/keon/projects/algorithms/build && $(MAKE) -f src/algorithms/CMakeFiles/algorithms.dir/build.make src/algorithms/CMakeFiles/algorithms.dir/print_message.cpp.o
-.PHONY : print_message.cpp.o
+linked_list_test.cpp.o:
+	cd /home/keon/projects/algorithms/build && $(MAKE) -f src/algorithms/CMakeFiles/linked_list.dir/build.make src/algorithms/CMakeFiles/linked_list.dir/linked_list_test.cpp.o
+.PHONY : linked_list_test.cpp.o
 
-print_message.i: print_message.cpp.i
+linked_list_test.i: linked_list_test.cpp.i
 
-.PHONY : print_message.i
+.PHONY : linked_list_test.i
 
 # target to preprocess a source file
-print_message.cpp.i:
-	cd /home/keon/projects/algorithms/build && $(MAKE) -f src/algorithms/CMakeFiles/algorithms.dir/build.make src/algorithms/CMakeFiles/algorithms.dir/print_message.cpp.i
-.PHONY : print_message.cpp.i
+linked_list_test.cpp.i:
+	cd /home/keon/projects/algorithms/build && $(MAKE) -f src/algorithms/CMakeFiles/linked_list.dir/build.make src/algorithms/CMakeFiles/linked_list.dir/linked_list_test.cpp.i
+.PHONY : linked_list_test.cpp.i
 
-print_message.s: print_message.cpp.s
+linked_list_test.s: linked_list_test.cpp.s
 
-.PHONY : print_message.s
+.PHONY : linked_list_test.s
 
 # target to generate assembly for a file
-print_message.cpp.s:
-	cd /home/keon/projects/algorithms/build && $(MAKE) -f src/algorithms/CMakeFiles/algorithms.dir/build.make src/algorithms/CMakeFiles/algorithms.dir/print_message.cpp.s
-.PHONY : print_message.cpp.s
+linked_list_test.cpp.s:
+	cd /home/keon/projects/algorithms/build && $(MAKE) -f src/algorithms/CMakeFiles/linked_list.dir/build.make src/algorithms/CMakeFiles/linked_list.dir/linked_list_test.cpp.s
+.PHONY : linked_list_test.cpp.s
+
+queue_test.o: queue_test.cpp.o
+
+.PHONY : queue_test.o
+
+# target to build an object file
+queue_test.cpp.o:
+	cd /home/keon/projects/algorithms/build && $(MAKE) -f src/algorithms/CMakeFiles/queue.dir/build.make src/algorithms/CMakeFiles/queue.dir/queue_test.cpp.o
+.PHONY : queue_test.cpp.o
+
+queue_test.i: queue_test.cpp.i
+
+.PHONY : queue_test.i
+
+# target to preprocess a source file
+queue_test.cpp.i:
+	cd /home/keon/projects/algorithms/build && $(MAKE) -f src/algorithms/CMakeFiles/queue.dir/build.make src/algorithms/CMakeFiles/queue.dir/queue_test.cpp.i
+.PHONY : queue_test.cpp.i
+
+queue_test.s: queue_test.cpp.s
+
+.PHONY : queue_test.s
+
+# target to generate assembly for a file
+queue_test.cpp.s:
+	cd /home/keon/projects/algorithms/build && $(MAKE) -f src/algorithms/CMakeFiles/queue.dir/build.make src/algorithms/CMakeFiles/queue.dir/queue_test.cpp.s
+.PHONY : queue_test.cpp.s
+
+stack_test.o: stack_test.cpp.o
+
+.PHONY : stack_test.o
+
+# target to build an object file
+stack_test.cpp.o:
+	cd /home/keon/projects/algorithms/build && $(MAKE) -f src/algorithms/CMakeFiles/stack.dir/build.make src/algorithms/CMakeFiles/stack.dir/stack_test.cpp.o
+.PHONY : stack_test.cpp.o
+
+stack_test.i: stack_test.cpp.i
+
+.PHONY : stack_test.i
+
+# target to preprocess a source file
+stack_test.cpp.i:
+	cd /home/keon/projects/algorithms/build && $(MAKE) -f src/algorithms/CMakeFiles/stack.dir/build.make src/algorithms/CMakeFiles/stack.dir/stack_test.cpp.i
+.PHONY : stack_test.cpp.i
+
+stack_test.s: stack_test.cpp.s
+
+.PHONY : stack_test.s
+
+# target to generate assembly for a file
+stack_test.cpp.s:
+	cd /home/keon/projects/algorithms/build && $(MAKE) -f src/algorithms/CMakeFiles/stack.dir/build.make src/algorithms/CMakeFiles/stack.dir/stack_test.cpp.s
+.PHONY : stack_test.cpp.s
 
 # Help Target
 help:
@@ -159,11 +243,19 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... stack"
+	@echo "... linked_list"
+	@echo "... queue"
 	@echo "... rebuild_cache"
-	@echo "... algorithms"
-	@echo "... print_message.o"
-	@echo "... print_message.i"
-	@echo "... print_message.s"
+	@echo "... linked_list_test.o"
+	@echo "... linked_list_test.i"
+	@echo "... linked_list_test.s"
+	@echo "... queue_test.o"
+	@echo "... queue_test.i"
+	@echo "... queue_test.s"
+	@echo "... stack_test.o"
+	@echo "... stack_test.i"
+	@echo "... stack_test.s"
 .PHONY : help
 
 
